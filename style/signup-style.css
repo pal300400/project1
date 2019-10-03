@@ -1,0 +1,99 @@
+body
+{
+	background-color: white;
+}
+.signup-win
+{
+	position: absolute;
+	top:10%;
+	left:35%;
+	width: 400px; 
+	background-color: white;
+	padding: 20px;
+	border:1px gray solid;
+	box-shadow: 0px 0px 5px 5px gray;
+	border-radius: 10px;
+	/*background-image: url(../pics/27.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	
+	
+}
+#signup-win:hover
+{
+box-shadow: 0px 0px 20px 5px gray;
+	
+}
+.imgg
+{
+	border-radius: 50%;
+	border:1px black solid;
+}
+#cross{
+	float: right;
+	background-image: url(../pics/cross.jpg);
+	width: 30px; height: 30px;;
+	border: 0px red solid;
+	background-size: contain;
+	margin-right: 10px;
+	margin-top: 10px;;
+}
+input[type="text"],input[type="password"]
+{
+	line-height: 30px;
+	width: 100%;
+	color: darkred;
+	font-size: 20px;
+	text-align: center;
+	border:1px black solid;
+	outline: none;
+}
+
+.user
+{
+	background-image: url(../pics/user.png);
+	background-repeat: no-repeat;
+	background-size: 30px;
+}
+input[type="text"]:focus
+{
+	background-color: lightgray;
+}
+input[type="password"]:focus
+{
+	background-color: lightgray;
+}
+
+.headings
+{
+	font-weight: bolder;
+	font-size: 20px;
+}
+.btn /*class Selector:for reusing the style*/
+		{
+			background-color: purple;
+			color: white;
+			text-align: center;
+			/*text-decoration: underline;*/
+			width: inline;
+			
+			padding: 10px;
+			margin-left: 10px;
+			cursor: pointer;
+			/*border-radius: 10px;*/
+			border-radius: 15px 15px 0px 0px;
+			margin: 10px;
+						
+
+		}
+		.btn:hover{ /* hover is fixed*/
+			background-color: mediumpurple;
+			/*border-radius: 0px 0px 15px 15px;*/
+			border-radius: 15px 0px 15px 0px;
+			
+		}
+		.btn:active{ /* active is fixed*/
+			transform: translate(0px,5px);
+		}
+		

@@ -1,0 +1,92 @@
+body
+{	background-color: black;
+}
+/*Universal Selector*/
+*{
+	margin: 0px;
+}
+#overall
+{
+	background-color: white;
+	width: 900px; height: 1000px;
+	margin: auto;
+}
+#title-div
+{
+	border:0px yellow solid ;
+	width: inherit; height: 70px;
+	box-sizing: border-box;
+}
+#title
+{
+	font-size: 30px;
+	margin-left: 40px;
+	margin-top: 20px; 
+	text-shadow: 2px 2px 2px red ;
+	float: left;
+}
+.call
+{
+	background-image: url(../pics/call.jpg);
+	width: 50px;
+	height: 50px;
+	float: right;
+	border: 1px gray solid;
+	background-size: contain;
+	margin: 10px 50px 0px 0px;
+	border-radius: 50%;
+}
+.call:hover
+{
+	transform: scale(1.2);
+}
+#title-image
+{
+	border:0px yellow solid ;
+	width: inherit; height:200px;
+	box-sizing: border-box;
+	background-image: url(../pics/ac.png);
+}
+#title-image:hover
+{
+	opacity: .7;
+	background-image: url(../pics/carpenter.png);
+}
+#menu-div
+{
+	border:1px yellow solid ;
+	width: inherit; height:60px;
+	box-sizing: border-box;
+	background-color: black;
+}
+#menu-div ol
+{
+	list-style: none;
+	margin-top: 10px;
+	float: left;
+	
+}
+#menu-div li{
+	float: left;
+	color: white;
+	background-color: white;
+	color: black;
+	padding: 10px 15px 10px 15px;
+	margin-left: 5px;
+	font-weight: bold;
+}
+#contents
+{
+	width: inherit;
+	height: 600px;
+	background-color: antiquewhite;
+}
+.side
+{
+	width: 200px;
+	height: inherit;
+	border: 1px black solid;
+	box-sizing: border-box;
+	float: left;
+}
+.spl-width{width: 500px;}
